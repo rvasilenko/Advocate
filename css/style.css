@@ -464,13 +464,14 @@ body {
 #content p {
     margin: 0 0 22px;
 }
-/* employe, testimonials, faq */
+/* employe, testimonials, faq, news */
 .employees {
     padding: 0 0 5px;
 }
 .employe,
 .testimonial,
-.faq-item{
+.faq-item,
+.news-item{
     color: #747373;
     padding: 10px 0 35px;
 }
@@ -484,23 +485,29 @@ body {
     padding: 0 0 5px;
     margin: 0 0 18px;
 }
+.news-item {
+    padding-bottom: 23px;
+}
 .testimonial:last-child,
 .faq-item:last-child{
     border-bottom: none;
 }
 .employe .image,
 .testimonial .image,
-.faq-item .image {
+.faq-item .image,
+.news-item .image{
     float: left;
     margin: 0 18px 0 0;
 }
 .employe .image img,
-.testimonial img{
+.testimonial img,
+.news-item .image img{
     display: block;
 }
 .employe .text,
 .testimonial .text,
-.faq-item .text{
+.faq-item .text,
+.news-item .text{
     overflow: hidden;
 }
 .employe .entry,
@@ -508,12 +515,18 @@ body {
 .faq-item .entry{
     font-family:'SegoeUI-Italic', Arial, Helvetica, sans-serif;
 }
+.news-item .entry {
+    line-height: 18px;
+}
 .employe .title, {
     margin: 0 0 14px;
 }
 .testimonial .title,
 .faq-item .title{
     margin: 0 0 6px;
+}
+.news-item .title {
+    padding: 6px 0 0;
 }
 .employe h2,
 .testimonial h2,
@@ -533,12 +546,17 @@ body {
     font-style: normal;
     font-family: 'SegoeUI', Arial, Helvetica, sans-serif;
 }
+.news-item .date {
+    font-style: normal;
+    color: #a7a6a6;
+}
 .faq-item .entry strong {
     color: #020202;
     font-family: 'SegoeUI-Semibold', Arial, Helvetica, sans-serif;
 }
 #content .employe p,
-#content .testimonial p{
+#content .testimonial p,
+#content .news-item p{
     margin: 0;
 }
 #content .faq-item p {
