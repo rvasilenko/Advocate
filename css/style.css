@@ -464,27 +464,33 @@ body {
 #content p {
     margin: 0 0 22px;
 }
-/* employe, testimonials */
+/* employe, testimonials, faq */
 .employees {
     padding: 0 0 5px;
 }
 .employe,
-.testimonial{
+.testimonial,
+.faq-item{
     color: #747373;
     padding: 10px 0 35px;
 }
-.testimonial {
+.testimonial,
+.faq-item{
     padding: 4px 0 23px;
     margin: 0 0 15px;
-}
-.testimonial {
     border-bottom: 1px solid #146ca0;
 }
-.testimonial:last-child {
+.faq-item {
+    padding: 0 0 5px;
+    margin: 0 0 18px;
+}
+.testimonial:last-child,
+.faq-item:last-child{
     border-bottom: none;
 }
 .employe .image,
-.testimonial .image{
+.testimonial .image,
+.faq-item .image {
     float: left;
     margin: 0 18px 0 0;
 }
@@ -492,38 +498,51 @@ body {
 .testimonial img{
     display: block;
 }
-.employe .entry,
-.testimonial .entry {
+.employe .text,
+.testimonial .text,
+.faq-item .text{
     overflow: hidden;
 }
 .employe .entry,
-.testimonial .entry {
+.testimonial .entry,
+.faq-item .entry{
     font-family:'SegoeUI-Italic', Arial, Helvetica, sans-serif;
 }
-.employe .title {
+.employe .title, {
     margin: 0 0 14px;
 }
-.testimonial .title {
+.testimonial .title,
+.faq-item .title{
     margin: 0 0 6px;
 }
 .employe h2,
-.testimonial h2 {
+.testimonial h2,
+.faq-item h2{
     margin: 0;
     font: 24px/20px 'SegoeUI-Semibold', Arial, Helvetica, sans-serif;
 }
 .employe h2 a,
-.testimonial h2 a{
+.testimonial h2 a,
+.faq-item h2 a{
     color: #3d3d3d;
 }
 .employe .date,
-.testimonial .date {
+.testimonial .date,
+.faq-item .date{
     color: #115f8e;
     font-style: normal;
     font-family: 'SegoeUI', Arial, Helvetica, sans-serif;
 }
+.faq-item .entry strong {
+    color: #020202;
+    font-family: 'SegoeUI-Semibold', Arial, Helvetica, sans-serif;
+}
 #content .employe p,
 #content .testimonial p{
     margin: 0;
+}
+#content .faq-item p {
+    margin: 0 0 8px;
 }
 /* sidebar */
 #sidebar h2 {
