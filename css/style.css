@@ -578,6 +578,34 @@ body {
 #content .contacts p {
     margin: 0;
 }
+/* table */
+.table {
+    margin: 0 0 18px;
+    border-collapse: collapse;
+    border: 1px solid #c6c5c5;
+}
+.table th {
+    text-align: left;
+    background: #146ca0;
+    color: #fff;
+    font: 17px 'SegoeUI-Semilight', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #c6c5c5;
+    padding: 14px 30px 16px;
+}
+.table td {
+    border: 1px solid #c6c5c5;
+    line-height: 18px;
+    padding: 18px 30px;
+}
+.table .price-cell {
+    width: 216px;
+    text-align: center;
+}
+.table td.price-cell {
+    font-size: 24px;
+    color: #146ca0;
+}
 /* sidebar */
 #sidebar h2 {
     margin: 0 0 18px;
