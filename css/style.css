@@ -106,6 +106,9 @@ body {
 .news-feed:after,
 .news-feed .section-content:after,
 .employe:after,
+.testimonial:after,
+.news-item:after,
+#content .contacts:after,
 #footer:after{
     display: block;
     content: '';
@@ -429,7 +432,7 @@ body {
 }
 /* main */
 #main {
-    padding: 18px 36px 44px 9px;
+    padding: 18px 16px 44px 9px;
     border-top: 6px solid #126292;
 }
 .home #main {
@@ -440,7 +443,7 @@ body {
 /* content */
 #content {
     float: right;
-    width: 894px;
+    width: 912px;
 }
 #content h1 {
     font: 30px/38px 'SegoeUI-Light', Arial, Helvetica, sans-serif;
@@ -477,7 +480,7 @@ body {
 }
 .testimonial,
 .faq-item{
-    padding: 4px 0 23px;
+    padding: 4px 0 20px;
     margin: 0 0 15px;
     border-bottom: 1px solid #146ca0;
 }
@@ -518,7 +521,7 @@ body {
 .news-item .entry {
     line-height: 18px;
 }
-.employe .title, {
+.employe .title {
     margin: 0 0 14px;
 }
 .testimonial .title,
@@ -561,6 +564,19 @@ body {
 }
 #content .faq-item p {
     margin: 0 0 8px;
+}
+/* contacts */
+#content .contacts .image {
+    float: right;
+}
+#content .contacts .image img {
+    vertical-align: top;
+}
+#content .contacts .content {
+    padding: 0 0 47px;
+}
+#content .contacts p {
+    margin: 0;
 }
 /* sidebar */
 #sidebar h2 {
