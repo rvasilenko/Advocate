@@ -109,6 +109,7 @@ body {
 .testimonial:after,
 .news-item:after,
 #content .contacts:after,
+#content .page-content:after,
 #footer:after{
     display: block;
     content: '';
@@ -452,6 +453,16 @@ body {
     margin: 0 0 20px;
     text-indent: -2px;
 }
+#content .page-title {
+    margin: 0 0 24px;
+}
+#content .page-title h1 {
+    display: inline;
+}
+#content .page-title .date {
+    font: 18px 'SegoeUI-Light', Arial, Helvetica, sans-serif;
+    color: #126190;
+}
 .read-more,
 .read-less{
     text-decoration: underline;
@@ -605,6 +616,18 @@ body {
 .table td.price-cell {
     font-size: 24px;
     color: #146ca0;
+}
+/* page content */
+.page-content .align-left {
+    float: left;
+    margin: 0 10px 0 0;
+}
+.page-content .align-right {
+    float: right;
+    margin: 0 0 0 10px;
+}
+.page-content img {
+    vertical-align: top;
 }
 /* sidebar */
 #sidebar h2 {
