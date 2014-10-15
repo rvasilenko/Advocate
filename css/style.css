@@ -455,10 +455,11 @@ body {
     text-indent: -2px;
 }
 #content .page-title {
-    margin: 0 0 24px;
+    margin: 0 0 20px;
 }
 #content .page-title h1 {
-    display: inline;
+    display: inline-block;
+    margin: 0;
 }
 #content .page-title .date {
     font: 18px 'SegoeUI-Light', Arial, Helvetica, sans-serif;
