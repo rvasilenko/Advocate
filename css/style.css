@@ -630,6 +630,9 @@ body {
 .page-content img {
     vertical-align: top;
 }
+.page-photo {
+    margin: 0 0 24px;
+}
 /* tabs */
 .tabset {
     margin: 0 0 20px;
